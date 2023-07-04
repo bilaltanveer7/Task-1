@@ -1,0 +1,699 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.firstcontainer {
+    display: flex;
+    background-color: #212121;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+.my-1 {
+    margin-left: 2rem;
+}
+
+#navbar {
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Bar {
+    background: none;
+    border-style: hidden;
+    height: 1.5rem;
+}
+
+#tag {
+    color: beige;
+}
+
+#tag:hover {
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.my-3 {
+    margin-left: 8rem;
+
+}
+
+#button-1 {
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.fa-sharp {
+    color: white;
+    margin-left: auto;
+}
+
+.fa-solid {
+    color: gray;
+}
+
+#button-2 {
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    border-style: groove;
+    cursor: pointer;
+    width: 5rem;
+}
+
+#button-2:hover {
+    background-color: greenyellow;
+}
+
+.my-6 {
+    margin-left: -3rem;
+}
+
+#hr {
+    height: 0.5rem;
+    border-radius: none;
+    border-color: black;
+    background-color: black;
+}
+
+.secondcontainer {
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+
+.sideBar {
+    margin-left: 10rem;
+    width: 15rem;
+}
+
+.sideBar header {
+    padding-top: 5rem;
+}
+
+.sideBar header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin-top: 30px;
+    margin-left: 5rem;
+}
+
+.sideBar header h2 {
+    color: white;
+    margin-top: 0.5rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+}
+
+#sideBarbutton {
+    margin-top: 0.8rem;
+    color: white;
+    background-color: greenyellow;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+.sideBar button {
+    color: white;
+    width: 15rem;
+    height: 2rem;
+    background-color: gray;
+    border: none;
+    margin-top: 1rem;
+}
+
+#themes {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* margin: -0.5rem; */
+}
+
+.sideBar section p {
+    color: white;
+    margin: 1rem;
+}
+
+.rightBar {
+    display: flex;
+    background-color: #3a373794;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.my-7 {
+    background-color: black;
+    border: none;
+    width: 13rem;
+    border-radius: 0.8rem;
+    height: 3rem;
+}
+
+.my-7A {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.my-8 {
+    margin-top: 1rem;
+    display: flex;
+    /* margin-top: 1rem; */
+}
+
+.my-8 img {
+    height: 10%;
+    width: 10%;
+    border-radius: 50px;
+}
+
+.my-9 {
+    margin-left: 1rem;
+}
+
+.my-9 h4 {
+    color: white;
+}
+
+.my-9 p {
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.rightBarA hr {
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.rightBarB {
+    width: 100%;
+    margin-right: 1rem;
+    /* border-radius: 5rem; */
+}
+
+.taskBar {
+    background-color: black;
+    height: 3rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.taskBar img {
+    width: 5%;
+    height: 70%;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.taskBar p {
+    color: white;
+    padding-left: 1rem;
+}
+
+.my-10 {
+    background-color: white;
+    margin-top: 1rem;
+    width: 15rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.my-10 img {
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.my-11 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-11 p {
+    font-size: smaller;
+    color: gray;
+}
+
+#msg {
+    background-color: lightgray;
+    border-radius: 1rem;
+}
+
+.my-12 {
+    background-color: greenyellow;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.my-13 {
+    background-color: black;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    height: 3rem;
+}
+
+.my-13 input {
+    background: none;
+    border-style: hidden;
+    height: 2rem;
+}
+
+@media (min-width:200px) and (max-width:300px)
+{
+    .firstcontainer{
+        width: 396%;
+    }
+    #hr{
+        width: 396%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        /* display: grid;
+        grid-template-columns: 550px 850px; */
+        width: 396%;
+    }
+    .sideBar{
+        margin-left: 1rem;
+    }
+    .rightBar{
+        margin-left: -8rem;
+        width: 80%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 75%;
+    }
+    .my-12{
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px)
+{
+    .firstcontainer{
+        width: 396%;
+    }
+    #hr{
+        width: 396%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 550px 850px;
+        width: 396%;
+    }
+    .sideBar{
+        margin-left: 15rem;
+    }
+    .rightBar{
+        margin-left: -3rem;
+        width: 80%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 100%;
+    }
+    .my-12{
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:400px) and (max-width:500px)
+{
+    .firstcontainer{
+        width: 396%;
+    }
+    #hr{
+        width: 396%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 550px 850px;
+        width: 396%;
+    }
+    .sideBar{
+        margin-left: 20rem;
+    }
+    .rightBar{
+        margin-left: 2.5rem;
+        width: 100%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 100%;
+    }
+    .my-12{
+        margin-left: 20rem;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px)
+{
+    .firstcontainer{
+        width: 396%;
+    }
+    #hr{
+        width: 396%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 550px 850px;
+        width: 396%;
+    }
+    .sideBar{
+        margin-left: 25rem;
+    }
+    .rightBar{
+        margin-left: 7rem;
+        width: 120%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 100%;
+    }
+    .my-12{
+        margin-left: 30rem;
+    }
+}
+
+@media (min-width:600px) and (max-width:700px)
+{
+    .firstcontainer{
+        width: 396%;
+    }
+    #hr{
+        width: 396%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 550px 850px;
+        width: 396%;
+    }
+    .sideBar{
+        margin-left: 35rem;
+    }
+    .rightBar{
+        margin-left: 17rem;
+        width: 150%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 100%;
+    }
+    .my-12{
+        margin-left: 30rem;
+    }
+}
+
+@media (min-width:550px) and (max-width:700px)
+{
+    .firstcontainer{
+        width: 124%;
+    }
+    #hr{
+        width: 124%;
+    }
+    .my-1{
+        margin-left: 1px;
+    }
+    .my-3{
+        margin-left: -3rem;
+    }
+    #navbar{
+        flex-wrap: wrap;
+    }
+    .my-5{
+        width: 6rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-top: 1rem;
+    }
+    .secondcontainer{
+        display: grid;
+    grid-template-columns: 100px 250px;
+    width: 124%;
+    }
+    .sideBar{
+        margin-left: 3rem;
+        width: 8rem;
+    }
+    .sideBar header img{
+        margin-left: 1rem;
+    }
+    .sideBar header h2{
+        margin-left: 0rem;
+        font-size: larger;
+    }
+    #sideBarbutton{
+        margin-left: 0rem;
+    width: 8rem;
+    }
+    .sideBar button{
+        width: 8rem;
+    }
+    .rightBar{
+        margin-left: 6rem;
+        width: 170%;
+    }
+    .my-7{
+        width: 8rem;
+    }
+    .my-8 img{
+        height: 10%;
+        width: 20%;
+    }
+    .my-9 h4{
+        font-size: smaller;
+    }
+    .my-9 p{
+        font-size: smaller;
+    }
+    .rightBarA hr{
+        width: 8rem;
+    }
+    .rightBarB{
+        width: 65%;
+    margin-left: 0rem;
+    }
+    .taskBar{
+        width: 90%;
+    margin-left: 0.5rem;
+    }
+    .my-10{
+        width: 12rem;
+    margin-left: 0.5rem;
+    }
+    .my-10 img{
+        margin-left: 1rem;
+    }
+    .my-12{
+        margin-left: 3rem;
+    width: 10rem;
+    }
+}
+
+@media (min-width:700px) and (max-width:850px)
+{
+    .firstcontainer{
+        width: 100%;
+    }
+    .my-1{
+        margin-left: 0.5rem;
+    }
+    .my-2{
+        width: 13rem;
+    }
+    .my-3{
+        margin-left: -5rem;
+    }
+    #hr{
+        width: 100%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 100px 250px;
+        width: 100%;
+    }
+    .sideBar{
+        margin-left: 1rem;
+        width: 10rem;
+    }
+    .sideBar header img{
+        margin-left: 2rem;
+    }
+    #sideBarbutton{
+        margin-left: 0rem;
+        width: 10rem;
+    }
+    .sideBar button{
+        width: 10rem;
+    }
+    .sideBar header h2{
+        margin-left: 0rem;
+    }
+    .rightBar{
+        margin-left: 6rem;
+        width: 200%;
+    }
+    .my-7{
+        width: 95%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 90%;
+    }
+    .my-12{
+        margin-left: 3rem;
+    }
+    .rightBarA hr{
+        width: 10rem;
+    }
+}
+
+@media (min-width:850px) and (max-width:1000px)
+{
+    .firstcontainer{
+        width: 100%;
+    }
+    .my-1{
+        margin-left: 1rem;
+    }
+    .my-3{
+        margin-left: 1rem;
+    }
+    #hr{
+        width: 100%;
+    }
+    .my-5{
+        width: 6rem;
+    }
+    #button-1{
+        width: inherit;
+    }
+    .my-6{
+        margin-left: 0rem;
+    }
+    .secondcontainer{
+        display: grid;
+        grid-template-columns: 100px 250px;
+        width: 100%;
+    }
+    .sideBar{
+        margin-left: 1rem;
+        width: 15rem;
+    }
+    .rightBar{
+        margin-left: 10rem;
+        width: 240%;
+    }
+    .rightBarB{
+        width: 100%;
+    }
+    .taskBar{
+        width: 90%;
+    }
+    .my-12{
+        margin-left: 5rem;
+    }
+    .rightBarA hr{
+        width: 13rem;
+    }
+}
